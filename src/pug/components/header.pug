@@ -4,10 +4,10 @@
             header.space 
                 .logo
                     a(href="#")
-                        img(src="../img/logo.png", alt="logo") 
+                        img(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/logo.png", alt="logo") 
                         | trips
                 .sea
-                    .menu 
+                    .menu.navbar 
                         ul  
                             li
                                 a(href="#") Главная
@@ -66,21 +66,23 @@
                         p.text-main Обычно достаточно трех-четырех пунктов о ваших ключевых особенностях. Напишите об этом!
         hr
         .row
-            .col
-                .ilend 
-                    img(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/iland.png", alt="")
-                    .main-ilend 
-                        h1 Удивительный безлюдный остров, который сводит людей с ума
-                        .row
-                            .col-xl-7
-                                p Многие блоги посвящены одной теме.  Другие более персональные и разносторонние. Во многих блогах есть возможность оставлять посетителями комментарии. Всю информацию в блог добавляют авторы, которых может быть несколько.
-                                a.podrobnosti(href="#")  заказать тур
-                                a.test(href="#")  подробности
-                            .col-xl-5
-                                .iland-price
-                                    p 1275 руб./день
-                                    br
-                                    i В данную стоимость входит обслуживание персонала, ужин и захватывающие истории гида.
+            .col 
+                .main-ilend 
+                    .row
+                        .col-xl-4    
+                            img(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/iland.png", alt="")
+                        .col-xl-8
+                            h1 Удивительный безлюдный остров, который сводит людей с ума
+                            .row
+                                .col-xl
+                                    p Многие блоги посвящены одной теме.  Другие более персональные и разносторонние. Во многих блогах есть возможность оставлять посетителями комментарии. Всю информацию в блог добавляют авторы, которых может быть несколько.
+                                    a.podrobnosti(href="#")  заказать тур
+                                    a.test(href="#")  подробности
+                                .col-xl
+                                    .iland-price
+                                        p 1275 руб./день
+                                        br
+                                        i В данную стоимость входит обслуживание персонала, ужин и захватывающие истории гида.
     .second-img
         .container
             .row
