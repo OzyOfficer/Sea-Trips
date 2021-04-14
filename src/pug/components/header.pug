@@ -37,35 +37,35 @@
                     a(href="#space") 
                         img(src="img/arow.png", alt="arrow")
     .container
-        .price
-            .row
-                .col-xl
-                    .about  
-                        h3 О нашей <br> 
-                            span компании
-                        p  Наша компания предлагает ряд интересно-развлекательных услуг, которые принесут вам ряд впечетлений!
-                        a(href="#")  Подробнее
-                        b * — обратите внимание, смена цены может зависить от курса доллара.
-                .col-xl
-                    .priceOne
-                        img.kard(src="img/bike.png", alt="bike")
-                        p Тур на велосипедах
-                        p.rub 999 руб.* 
-                        p.text-main Наверняка у вас много сильных сторон и уникальных товаров, которые отличают вас от других. Может у вас есть супердоставка?
-                .col-xl
-                    .priceOne
-                        img.kard(src="img/kolo.png", alt="bike")
-                        img.green(src="img/green.png", alt="green")
-                        p Экскурсия на остров
-                        p.rub 1270 руб.* 
-                        p.text-main Или, например, вы делаете акции со скидками в честь дня рождения вашего клиента. Напишите об этом!
-                .col-xl
-                    .priceOne
-                        img.kard(src="img/masage.png", alt="bike")
-                        img.green(src="img/green.png", alt="green")
-                        p Индивидуальный заказ
-                        p.rub 750 руб.* 
-                        p.text-main Обычно достаточно трех-четырех пунктов о ваших ключевых особенностях. Напишите об этом!
+        .price.row
+            .col-xl.about 
+                h3 О нашей <br> 
+                    span компании
+                p  Наша компания предлагает ряд интересно-развлекательных услуг, которые принесут вам ряд впечетлений!
+                a(href="#")  Подробнее
+                br
+                b * — обратите внимание, смена цены может зависить от курса доллара.
+            .col-xl.priceOne
+                img.kard(src="img/bike.png", alt="bike")
+                p Тур на велосипедах
+                p.rub 999 руб.* 
+                p.text-main Наверняка у вас много сильных сторон и уникальных товаров, которые отличают вас от других. Может у вас есть супердоставка?
+            .col-xl
+                .priceOne
+                    img.kard(src="img/kolo.png", alt="bike")
+                    img.green(src="img/green.png", alt="green")
+                    p Экскурсия на остров
+                    p.rub 1270 руб.* 
+                    p.text-main Или, например, вы делаете акции со скидками в честь дня рождения вашего клиента. Напишите об этом!
+                .kpopkaept
+                    a(href="#") смотреть все планы
+                    i.bi.bi-play-circle
+            .col-xl.priceOne
+                img.kard(src="img/masage.png", alt="bike")
+                img.green(src="img/green.png", alt="green")
+                p Индивидуальный заказ
+                p.rub 750 руб.* 
+                p.text-main Обычно достаточно трех-четырех пунктов о ваших ключевых особенностях. Напишите об этом!
         hr
         .row
             .col 
@@ -104,72 +104,72 @@
                         p.oleg Олег Набережный
                         p.client довольный клиент
     .container
-        .row
+        .priceWeek
+            h2 Специальные предложения недели
+            p  Люди могут обещать тебе золотые горы, но это ничего не значит.
+        .priceCheck.row
             .col-xl
-                .priceWeek
-                    h2 Специальные предложения недели
-                    p  Люди могут обещать тебе золотые горы, но это ничего не значит.
-                .priceCheck
-                    .row
-                        .col-xl
-                            .priceBlocks
-                                img.photoBlok(src="img/jump.png", alt="Serfing")
-                                img.green(src="img/green.png", alt="green")
-                                h5 Прыжки с трамплина
-                                p.textblock Обычно достаточно трех-четырех пунктов о ваших ключевых особенностях. Напишите об этом!
-                                p.priceRub 160 руб.
-                                a.zakazat(href="#") заказать
-                        .col-xl
-                            .priceBlocks
-                                img.photoBlok(src="img/bicekall.png", alt="Bicekall")
-                                img.blue(src="img/blue.png", alt="blue")
-                                img.green(src="img/green.png", alt="green")
-                                h5 Прокат велосипедов
-                                p.textblock Наверняка у вас много сильных сторон и уникальных товаров, которые отличают вас от других. Может у вас есть супердоставка?
-                                p.priceRub 999 руб.
-                                a.zakazat(href="#") заказать
-                        .col-xl
-                            .priceBlocks
-                                img.photoBlok(src="img/travel.png", alt="travel")
-                                h5 Поездка на безлюдный остров
-                                p.textblock Или, например, вы делаете акции со скидками в честь дня рождения вашего клиента. Может у вас есть супердоставка?
-                                p.priceRub 1270 руб.
-                                a.zakazat(href="#") заказать
-                        .col-xl
-                            .priceBlocks
-                                img.photoBlok(src="img/serff.png", alt="Serfing")
-                                img.green(src="img/green.png", alt="green")
-                                h5 Катание на серфинге
-                                p.textblock Обычно достаточно трех-четырех пунктов о ваших ключевых особенностях. Напишите об этом!
-                                p.priceRub 750 руб.
-                                a.zakazat(href="#") заказать
+                .priceBlocks
+                    .photoBloks
+                        img(src="img/jump.png", alt="Serfing")
+                    img.green(src="img/green.png", alt="green")
+                    h5 Прыжки с трамплина
+                    p.textblock Обычно достаточно трех-четырех пунктов о ваших ключевых особенностях. Напишите об этом!
+                    p.priceRub 160 руб.
+                    a.zakazat(href="#") заказать
+            .col-xl
+                .priceBlocks
+                    .photoBlok
+                        img(src="img/bicekall.png", alt="Bicekall")
+                    img.green(src="img/green.png", alt="green")
+                    h5 Прокат велосипедов
+                    p.textblock Наверняка у вас много сильных сторон и уникальных товаров, которые отличают вас от других. Может у вас есть супердоставка?
+                    p.priceRub 999 руб.
+                    a.zakazat(href="#") заказать
+            .col-xl
+                .priceBlocks
+                    .photoBloks
+                        img(src="img/travel.png", alt="travel")
+                    h5 Поездка на безлюдный остров
+                    p.textblock Или, например, вы делаете акции со скидками в честь дня рождения вашего клиента. Может у вас есть супердоставка?
+                    p.priceRub 1270 руб.
+                    a.zakazat(href="#") заказать
+            .col-xl
+                .priceBlocks
+                    .photoBloks
+                        img(src="img/serff.png", alt="Serfing")
+                    img.green(src="img/green.png", alt="green")
+                    h5 Катание на серфинге
+                    p.textblock Обычно достаточно трех-четырех пунктов о ваших ключевых особенностях. Напишите об этом!
+                    p.priceRub 750 руб.
+                    a.zakazat(href="#") заказать
         hr
         .footer
             .row
-                .col-xl
+                .col-xl-3
                     .documents
                         h3 Прочие<br> 
                             span документы
                         p Если у вас очень много предложений, то разместите тут самые основные, а полный Прайс лучше сделать файлом для скачивания.
-                .col-xl
+                .col-xl-3.mb-2
                     .hotel
                         img(src="img/paper.png", alt="")
-                        p График работы<br>отелей.xls <br> 
+                        p График работы<br>отелей.xls 
                         p.fail Размер файла: 10Mb
                         p.failText Полный перечень наших товаров и услуг. Разместите тут краткое описание ваших спецпредложений, товаров или услуг. 
                         a.submite(href="#") 
                             i.bi.bi-cloud 
                             span скачать
-                .col-xl
+                .col-xl-3.mb-2
                     .foods
                         img(src="img/paper.png", alt="")
-                        p График одноразвого<br>питания.xls <br> 
+                        p График одноразвого<br>питания.xls
                         p.fail Размер файла: 10Mb
                         p.failText Полный перечень наших товаров и услуг. Разместите тут краткое описание ваших спецпредложений, товаров или услуг. 
                         a.submite(href="#") 
                             i.bi.bi-cloud 
                             span скачать
-                .col-xl
+                .col-xl-3.mb-2
                     .quest
                         p.photoCom задать вопрос
                         img.photo(src="img/anna.png", alt="Anna")
