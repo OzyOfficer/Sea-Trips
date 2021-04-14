@@ -1,28 +1,31 @@
 .mainwrapper
     .mainlogo
         .container
-            header.space 
-                .logo
-                    a(href="#")
-                        img(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/logo.png", alt="logo") 
-                        | trips
-                .sea
-                    .menu.navbar 
-                        ul  
-                            li
-                                a(href="#") Главная
-                            li
-                                a(href="#") Услуги 
-                            li
-                                a(href="#") О компании  
-                            li
-                                a(href="#") Акции  
-                            li
-                                a(href="#") Партнеры
-                            li
-                                a(href="#") Отзывы
-                            li
-                                a(href="#") Контакты
+            header
+                nav.navbar.navbar-expand-lg.d-flex.justify-content-between.navbar-dark
+                    .logo
+                        a(href="#")
+                            img(src="img/logo.png", alt="logo") 
+                            | trips
+                    .sea
+                        button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
+                            span.navbar-toggler-icon
+                        #navbarNav.menu.collapse.navbar-collapse
+                            ul.navbar-nav  
+                                li
+                                    a(href="#") Главная
+                                li
+                                    a(href="#") Услуги 
+                                li
+                                    a(href="#") О компании  
+                                li
+                                    a(href="#") Акции  
+                                li
+                                    a(href="#") Партнеры
+                                li
+                                    a(href="#") Отзывы
+                                li
+                                    a(href="#") Контакты
             .sea-travel
                 h1 Морские приключения
                 p Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.
@@ -32,7 +35,7 @@
                 p Наша фирма - лидер на рынке в своей области!
                 .arrow
                     a(href="#space") 
-                        img(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/arow.png", alt="arrow")
+                        img(src="img/arow.png", alt="arrow")
     .container
         .price
             .row
@@ -43,24 +46,23 @@
                         p  Наша компания предлагает ряд интересно-развлекательных услуг, которые принесут вам ряд впечетлений!
                         a(href="#")  Подробнее
                         b * — обратите внимание, смена цены может зависить от курса доллара.
-                
                 .col-xl
                     .priceOne
-                        img.kard(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/bike.png", alt="bike")
+                        img.kard(src="img/bike.png", alt="bike")
                         p Тур на велосипедах
                         p.rub 999 руб.* 
                         p.text-main Наверняка у вас много сильных сторон и уникальных товаров, которые отличают вас от других. Может у вас есть супердоставка?
                 .col-xl
                     .priceOne
-                        img.kard(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/kolo.png", alt="bike")
-                        img.green(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/green.png", alt="green")
+                        img.kard(src="img/kolo.png", alt="bike")
+                        img.green(src="img/green.png", alt="green")
                         p Экскурсия на остров
                         p.rub 1270 руб.* 
                         p.text-main Или, например, вы делаете акции со скидками в честь дня рождения вашего клиента. Напишите об этом!
                 .col-xl
                     .priceOne
-                        img.kard(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/masage.png", alt="bike")
-                        img.green(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/green.png", alt="green")
+                        img.kard(src="img/masage.png", alt="bike")
+                        img.green(src="img/green.png", alt="green")
                         p Индивидуальный заказ
                         p.rub 750 руб.* 
                         p.text-main Обычно достаточно трех-четырех пунктов о ваших ключевых особенностях. Напишите об этом!
@@ -70,7 +72,7 @@
                 .main-ilend 
                     .row
                         .col-xl-4    
-                            img(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/iland.png", alt="")
+                            img(src="img/iland.png", alt="")
                         .col-xl-8
                             h1 Удивительный безлюдный остров, который сводит людей с ума
                             .row
@@ -96,8 +98,8 @@
                             a(href="#")  участвовать
                 .col-xl-5
                     blockquote.comment
-                        img.photoCom(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/comm.png", alt="Masage")
-                        img.photo(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/man.png", alt="Oleg")
+                        img.photoCom(src="img/comm.png", alt="Masage")
+                        img.photo(src="img/man.png", alt="Oleg")
                         p Не переусердствуйте с отзывами. Их не должно быть слишком много. Лучше всего, если будет три-четыре, но развернутых. <br> С описанием того, что человеку понравилось. <br> С указанием конкретных товаров или услуг, которые он заказывал.
                         p.oleg Олег Набережный
                         p.client довольный клиент
@@ -111,32 +113,32 @@
                     .row
                         .col-xl
                             .priceBlocks
-                                img.photoBlok(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/jump.png", alt="Serfing")
-                                img.green(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/green.png", alt="green")
+                                img.photoBlok(src="img/jump.png", alt="Serfing")
+                                img.green(src="img/green.png", alt="green")
                                 h5 Прыжки с трамплина
                                 p.textblock Обычно достаточно трех-четырех пунктов о ваших ключевых особенностях. Напишите об этом!
                                 p.priceRub 160 руб.
                                 a.zakazat(href="#") заказать
                         .col-xl
                             .priceBlocks
-                                img.photoBlok(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/bicekall.png", alt="Bicekall")
-                                img.blue(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/blue.png", alt="blue")
-                                img.green(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/green.png", alt="green")
+                                img.photoBlok(src="img/bicekall.png", alt="Bicekall")
+                                img.blue(src="img/blue.png", alt="blue")
+                                img.green(src="img/green.png", alt="green")
                                 h5 Прокат велосипедов
                                 p.textblock Наверняка у вас много сильных сторон и уникальных товаров, которые отличают вас от других. Может у вас есть супердоставка?
                                 p.priceRub 999 руб.
                                 a.zakazat(href="#") заказать
                         .col-xl
                             .priceBlocks
-                                img.photoBlok(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/travel.png", alt="travel")
+                                img.photoBlok(src="img/travel.png", alt="travel")
                                 h5 Поездка на безлюдный остров
                                 p.textblock Или, например, вы делаете акции со скидками в честь дня рождения вашего клиента. Может у вас есть супердоставка?
                                 p.priceRub 1270 руб.
                                 a.zakazat(href="#") заказать
                         .col-xl
                             .priceBlocks
-                                img.photoBlok(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/serff.png", alt="Serfing")
-                                img.green(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/green.png", alt="green")
+                                img.photoBlok(src="img/serff.png", alt="Serfing")
+                                img.green(src="img/green.png", alt="green")
                                 h5 Катание на серфинге
                                 p.textblock Обычно достаточно трех-четырех пунктов о ваших ключевых особенностях. Напишите об этом!
                                 p.priceRub 750 руб.
@@ -151,7 +153,7 @@
                         p Если у вас очень много предложений, то разместите тут самые основные, а полный Прайс лучше сделать файлом для скачивания.
                 .col-xl
                     .hotel
-                        img(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/paper.png", alt="")
+                        img(src="img/paper.png", alt="")
                         p График работы<br>отелей.xls <br> 
                         p.fail Размер файла: 10Mb
                         p.failText Полный перечень наших товаров и услуг. Разместите тут краткое описание ваших спецпредложений, товаров или услуг. 
@@ -160,7 +162,7 @@
                             span скачать
                 .col-xl
                     .foods
-                        img(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/paper.png", alt="")
+                        img(src="img/paper.png", alt="")
                         p График одноразвого<br>питания.xls <br> 
                         p.fail Размер файла: 10Mb
                         p.failText Полный перечень наших товаров и услуг. Разместите тут краткое описание ваших спецпредложений, товаров или услуг. 
@@ -170,7 +172,7 @@
                 .col-xl
                     .quest
                         p.photoCom задать вопрос
-                        img.photo(src="https://raw.githubusercontent.com/OzyOfficer/Sea-Trips/master/src/img/anna.png", alt="Anna")
+                        img.photo(src="img/anna.png", alt="Anna")
                         p Чтоб поместить на сайт чьи-то слова, отзывы клиентов, слоган вашей компании или просто как способ оформления текста.
                         a(href="tel:+79531234567") + 7 (953) 123-45-67
                         p.oleg Анна Николаева
